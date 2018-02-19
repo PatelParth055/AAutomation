@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="8" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[createProduct]]>
+    </line>
+    <line>
+      <![CDATA[editProduct]]>
+    </line>
+    <line>
+      <![CDATA[editProduct]]>
+    </line>
+    <line>
+      <![CDATA[editProduct]]>
+    </line>
+    <line>
+      <![CDATA[deleteProduct]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="100" started-at="2018-02-18T18:54:09Z" finished-at="2018-02-18T18:54:09Z">
+    <groups>
+      <group name="smoke">
+        <method signature="DemoParameters.createProduct()[pri:1, instance:testngpackage.DemoParameters@1f57539]" name="createProduct" class="testngpackage.DemoParameters"/>
+      </group> <!-- smoke -->
+      <group name="Product">
+        <method signature="DemoParameters.createProduct()[pri:1, instance:testngpackage.DemoParameters@1f57539]" name="createProduct" class="testngpackage.DemoParameters"/>
+        <method signature="DemoParameters.deleteProduct()[pri:3, instance:testngpackage.DemoParameters@1f57539]" name="deleteProduct" class="testngpackage.DemoParameters"/>
+        <method signature="DemoParameters.editProduct()[pri:2, instance:testngpackage.DemoParameters@1f57539]" name="editProduct" class="testngpackage.DemoParameters"/>
+      </group> <!-- Product -->
+    </groups>
+    <test name="Test" duration-ms="100" started-at="2018-02-18T18:54:09Z" finished-at="2018-02-18T18:54:09Z">
+      <class name="testngpackage.DemoParameters">
+        <test-method status="PASS" signature="createProduct()[pri:1, instance:testngpackage.DemoParameters@1f57539]" name="createProduct" duration-ms="12" started-at="2018-02-19T00:24:09Z" finished-at="2018-02-19T00:24:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[createProduct]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createProduct -->
+        <test-method status="PASS" signature="editProduct()[pri:2, instance:testngpackage.DemoParameters@1f57539]" name="editProduct" duration-ms="1" started-at="2018-02-19T00:24:09Z" finished-at="2018-02-19T00:24:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[editProduct]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editProduct -->
+        <test-method status="PASS" signature="editProduct()[pri:2, instance:testngpackage.DemoParameters@1f57539]" name="editProduct" duration-ms="1" started-at="2018-02-19T00:24:09Z" finished-at="2018-02-19T00:24:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[editProduct]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editProduct -->
+        <test-method status="PASS" signature="editProduct()[pri:2, instance:testngpackage.DemoParameters@1f57539]" name="editProduct" duration-ms="1" started-at="2018-02-19T00:24:09Z" finished-at="2018-02-19T00:24:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[editProduct]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editProduct -->
+        <test-method status="PASS" signature="deleteProduct()[pri:3, instance:testngpackage.DemoParameters@1f57539]" name="deleteProduct" duration-ms="1" started-at="2018-02-19T00:24:09Z" finished-at="2018-02-19T00:24:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[deleteProduct]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteProduct -->
+      </class> <!-- testngpackage.DemoParameters -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
